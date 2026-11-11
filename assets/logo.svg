@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- app-icon background -->
+  <rect width="1024" height="1024" rx="224" fill="#1F4D3A"/>
+
+  <!-- shadow under the invoice -->
+  <rect x="298" y="286" width="460" height="540" rx="40" fill="#13301F"/>
+
+  <!-- invoice sheet -->
+  <rect x="282" y="252" width="460" height="540" rx="40" fill="#FFFFFF"/>
+
+  <!-- invoice header + lines -->
+  <rect x="344" y="336" width="262" height="24" rx="12" fill="#9FB5A9"/>
+  <rect x="344" y="400" width="336" height="20" rx="10" fill="#C6D4CB"/>
+  <rect x="344" y="452" width="304" height="20" rx="10" fill="#C6D4CB"/>
+
+  <!-- amount due, emphasised -->
+  <rect x="344" y="544" width="224" height="26" rx="13" fill="#1F4D3A"/>
+
+  <!-- supporting lines -->
+  <rect x="344" y="604" width="176" height="18" rx="9" fill="#C6D4CB"/>
+  <rect x="344" y="650" width="212" height="18" rx="9" fill="#C6D4CB"/>
+
+  <!-- clock badge: the reminder -->
+  <circle cx="700" cy="704" r="126" fill="#13301F"/>
+  <circle cx="686" cy="690" r="126" fill="#A7E8C4"/>
+  <circle cx="686" cy="690" r="100" fill="#EAF7F0"/>
+  <line x1="686" y1="690" x2="686" y2="620" stroke="#1F4D3A" stroke-width="18" stroke-linecap="round"/>
+  <line x1="686" y1="690" x2="742" y2="714" stroke="#1F4D3A" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="686" cy="690" r="13" fill="#1F4D3A"/>
+</svg>

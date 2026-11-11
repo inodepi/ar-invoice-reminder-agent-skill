@@ -1,3 +1,5 @@
+![AR Collections Agent](assets/logo-512.png)
+
 # AR Collections Agent
 
 A SKILL.md skill that turns your AI agent into an accounts-receivable specialist. Point it at your invoice tracker and it finds what's overdue, writes a reminder in the right tone, sends the safe ones on its own, and queues only the emails that deserve your eyes.
