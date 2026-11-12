@@ -4,7 +4,7 @@
 
 A SKILL.md skill that turns your AI agent into an accounts-receivable specialist. Point it at your invoice tracker and it finds what's overdue, writes a reminder in the right tone, sends the safe ones on its own, and queues only the emails that deserve your eyes.
 
-Built from the [AR Invoice Reminder Agent](https://github.com/potaterrr/ar-invoice-reminder-agent) n8n workflow — same tone ladder, same guardrails, but the agent does the sending instead of filing a draft for a human.
+Built from the [AR Invoice Reminder Agent](https://github.com/inodepi/ar-invoice-reminder-agent) n8n workflow — same tone ladder, same guardrails, but the agent does the sending instead of filing a draft for a human.
 
 ## What it does
 
@@ -79,7 +79,7 @@ No credentials live in this repo. Nothing is sent until your agent runs this ski
 
 The `assets/` folder carries the original n8n workflow: a daily schedule, Gemini drafting, Gmail drafts, and sheet logging. Import it into n8n and attach your own credentials. It drafts and never sends — the deliberate opposite of the skill, for teams that want a human send button.
 
-Full workflow documentation lives in the [companion repo](https://github.com/potaterrr/ar-invoice-reminder-agent).
+Full workflow documentation lives in the [companion repo](https://github.com/inodepi/ar-invoice-reminder-agent).
 
 ## Safety
 

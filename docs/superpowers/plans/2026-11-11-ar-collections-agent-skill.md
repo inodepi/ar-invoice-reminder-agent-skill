@@ -72,6 +72,6 @@
 - [x] **Step 1:** Confirm frontmatter name matches folder name.
 - [x] **Step 2:** Confirm no credentials/sheet IDs/real data remain (`grep`).
 - [x] **Step 3:** Confirm templates contain no bracket placeholders besides the signature.
-- [x] **Step 4:** Create `potaterrr/ar-invoice-reminder-agent-skill` on GitHub and push.
+- [x] **Step 4:** Create `inodepi/ar-invoice-reminder-agent-skill` on GitHub and push.
 
 **Verification:** grep for the original spreadsheet ID prefix returns nothing outside this sentence; YAML check of SKILL.md name/description; `git status` clean after push.
